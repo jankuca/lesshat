@@ -3,6 +3,10 @@
   "version": "2.0.0-pre",
   "devDependencies": {
     "grunt": "0.4.x",
+    "grunt-cli": "*",
     "lesshat-dev": "git://github.com/jankuca/lesshat-dev"
+  },
+  "scripts": {
+    "test": "grunt"
   }
 }
