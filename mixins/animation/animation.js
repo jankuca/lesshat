@@ -4,5 +4,5 @@ module.exports = function animation(value) {
   if (!/^\w*([ X])/.test(value)) {
     value = value.replace(/,/g, "");
   }
-  return arg;
+  return value;
 };
